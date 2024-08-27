@@ -1,0 +1,137 @@
+h1,h2,h3{
+  color: black;
+  font-family:serif;
+  text-align:center;
+}
+h1{
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-duration: alternate;
+}
+@keyframes sildein{
+  form{
+    translate: 150vw;
+  }
+}
+
+  
+  
+
+
+
+body{
+  background-color: white;
+  
+  
+}
+.topnav{
+  background-color: rgb(22, 18, 18);
+  padding: 10px;
+  margin: 10PX;
+}
+.topnav a{
+  color: rgb(255, 255, 255);
+  padding: 17px;
+  margin: 15px;
+  font-size: large;
+  text-decoration: none;
+ 
+  
+}
+video{
+  width: 600px;
+  height: 300px;
+}
+h2{
+  color: black;
+}
+p{
+  color: black;
+}
+video{
+  width: 560ppx;
+  height: 280px;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem
+}
+input{
+  flex: 1 0 10rem;
+}
+button{
+  flex: 1 0 5rem;
+}
+.Card{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px 9px black;
+  padding: 40PX;
+  margin: 150PX; 
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+}
+h1{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin-top: 1px;
+}
+p{
+  color: rgb(0, 0, 0);
+}
+h3{
+  color: black;
+}
+button{
+  font-size: 20px;
+  background-color: #0684f9;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 30px;
+}
+table,th,td{
+border: 1px solid black;
+font-size: larger;
+}
+td{
+  font-size: small;
+}
+footer{
+  background: black;
+  color: white;
+  text-align: center;
+  
+}
+
+
+ 
+ form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #29cc2e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #15da1b;
+}
